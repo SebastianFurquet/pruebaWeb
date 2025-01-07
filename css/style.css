@@ -1,0 +1,143 @@
+/*ESTILOS RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none ;
+}
+
+/*////////////////////////////////////////////////////*/
+
+/*ESTILOS BODY*/
+
+#body{
+    max-width: 100%;
+    min-height: 100%;
+    
+}
+
+
+/*////////////////////////////////////////////////////*/
+/*ESTILOS HEADER*/
+#header{
+    /*position: fixed*/
+    width: 100%;
+    height: 120px;
+    z-index: 1000;
+    font-size: 20px;
+}
+
+/* ESTILOS DEL NAV */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(60deg, rgba(14,15,19,1) 0%, rgba(2,115,115,1) 50%, rgba(4,191,173,1) 100%);
+    box-shadow: 0px 2px 5px
+}
+
+.navLogo{
+    width: 115px; /* tamaño de logo*/
+    
+}
+
+.navbar-nav{
+    margin-left: auto; /* corre los elementos a derecha*/
+}
+
+
+/*////////////////////////////////////////////////////*/
+/*ESTILOS MAIN = INDEX*/
+
+#main{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.title-seb {
+    margin-bottom: 100px; /* Espacio entre el título y la tarjeta */
+}
+
+.card {
+    box-shadow: 0px 2px 5px
+    
+}
+
+/*////////////////////////////////////////////////////*/
+
+/* MAIN - QUIEN SOY*/ 
+
+.img{
+    width: 200px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////*/
+/*ESTILOS FOOTER*/
+
+
+.footer--color {
+    background: linear-gradient(234deg, rgba(2,115,115,1) 0%, rgba(151,157,166,1) 25%, rgba(193,212,217,1) 100%);
+}
+
+/* Media queries*/
+
+@media (max-width: 768px) {
+    .footerNav li{
+        display: inline-block;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+}
